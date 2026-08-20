@@ -1,0 +1,85 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Non-project documents and local backups
+*.pptx
+*.local.*
+*.local.backup
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Keep this repository focused on the Android mobile app and backend.
+/ios/
+/linux/
+/macos/
+/windows/
+/web/
+
+# Node.js backend dependencies
+**/node_modules/
+
+# Local backend secrets and private service credentials
+backend/.env
+backend/.env - Copy.example
+backend/serviceAccountKey.json
+backend/*serviceAccount*.json
+!backend/serviceAccountKey.example.json
+**/*firebase-adminsdk*.json
+**/rzp-key.csv
+
+# Local client/API configuration. Use the example files instead.
+android/app/google-services.json
+lib/firebase_options.dart
+lib/google-services.json
+lib/utils/google_maps_keys.dart
+
+# Uploaded runtime files. Keep only exercise demo assets in the public repo.
+backend/uploads/*
+!backend/uploads/exercises/
+!backend/uploads/exercises/**
+
+# Locally generated Android packages
+*.apk
+*.aab
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/build/
+/android/app/debug
+/android/app/profile
+/android/app/release
